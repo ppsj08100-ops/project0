@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="LIVE EVIL 라이브 쇼핑">
+    <title>LIVE EVIL</title>
+    <link rel="icon" href="images/header/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="node_modules/swiper/swiper-bundle.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+<p id="skipNav"><a href="#content">본문 바로가기</a></p>
+<div id="wrap">
+    <header class="header">
+        <div class="inner">
+            <h1 class="header__logo"><a href="#"><img src="images/header/logo.svg" alt="LIVE EVIL"></a></h1>
+            <nav class="header__nav" aria-label="주요 메뉴">
+                <a href="#promotion">진행중</a><a href="#ranking">베스트</a><a href="#live">브랜드</a><a href="#">캘린더</a>
+            </nav>
+            <div class="header__tools">
+                <button aria-label="검색"><img src="images/header/search.svg" alt=""></button>
+                <button aria-label="장바구니"><img src="images/header/cart.svg" alt=""></button>
+                <button aria-label="프로필"><img src="images/header/profile.svg" alt=""></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero hero-swiper swiper" aria-label="주요 프로모션">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/figma/visual1.png" alt="Vylum 세럼 프로모션"></div>
+            <div class="swiper-slide"><img src="images/visual02.jpg" alt="두 번째 프로모션"></div>
+            <div class="swiper-slide"><img src="images/visual3.jpg" alt="세 번째 프로모션"></div>
+            <div class="swiper-slide"><img src="images/visual4.jpg" alt="네 번째 프로모션"></div>
+        </div>
+        <div class="hero__paging">
+            <button aria-label="일시 정지"><img src="images/figma/hero-pause.svg" alt=""></button>
+            <div class="hero__pagination"></div>
+        </div>
+    </section>
+
+    <main id="content">
+        <section id="promotion" class="section promotion con1">
+            <div class="section__inner">
+                <button class="arrow arrow--left" aria-label="이전"><img src="images/figma/promotion-arrow-left.svg" alt=""></button>
+                <div class="promo-list promotion__list promo-swiper swiper">
+                    <div class="swiper-wrapper">
+                    <article class="promo-card swiper-slide">
+                        <h2>HOLYDAY<br>30% OFF</h2><img src="images/figma/promo1.jpg" alt="">
+                        <div class="social"><span>10만</span><span>5.2만</span></div><h3>연휴를 위한 준비 단 7일간 최대<br>30% 세일</h3><p>#아디다스　#나이키　#마르지엘라　#디올</p>
+                    </article>
+                    <article class="promo-card swiper-slide">
+                        <h2>SPORTS<br>LOOKS</h2><img src="images/figma/promo2.jpg" alt="">
+                        <div class="social"><span>10만</span><span>5.2만</span></div><h3>애슬레틱 룩의 완성 운동할 때도<br>느낌있게</h3><p>#아디다스　#나이키　#마르지엘라　#디올</p>
+                    </article>
+                    <article class="promo-card swiper-slide">
+                        <h2>LUXURY<br>MOMENT</h2><img src="images/figma/promo3.jpg" alt="">
+                        <div class="social"><span>10만</span><span>5.2만</span></div><h3>첫 명품, 이렇게 구매하자<br>평생 쓰는 아이템 고르는 법</h3><p>#아디다스　#나이키　#마르지엘라　#디올</p>
+                    </article>
+                    <article class="promo-card swiper-slide">
+                        <h2>ROMANTIC<br>JEWALY</h2><img src="images/figma/promo4.jpg" alt="">
+                        <div class="social"><span>10만</span><span>5.2만</span></div><h3>기분 전환을 위한<br>주얼리 특집</h3><p>#아디다스　#나이키　#마르지엘라　#디올</p>
+                    </article>
+                    <article class="promo-card swiper-slide">
+                        <h2>HOLYDAY<br>30% OFF</h2><img src="images/figma/promo1.jpg" alt="">
+                        <div class="social"><span>10만</span><span>5.2만</span></div><h3>연휴를 위한 준비 단 7일간 최대<br>30% 세일</h3><p>#아디다스　#나이키　#마르지엘라　#디올</p>
+                    </article>
+                    </div>
+                </div>
+                <button class="arrow arrow--right" aria-label="다음"><img src="images/figma/arrow-right.svg" alt=""></button><span class="side-tag">SALE</span>
+                <button class="more">더보기</button>
+            </div>
+        </section>
+
+        <section id="live" class="section live con2">
+            <div class="section__inner">
+                <div class="live__title"><b>라이브 나우</b><small>할인 마감까지 남은 시간</small><strong>01 : 20 : 12</strong></div>
+                <button class="arrow arrow--left" aria-label="이전"><img src="images/figma/promotion-arrow-left.svg" alt=""></button>
+                <div class="live-list live-now__list live-swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="product swiper-slide"><img src="images/figma/live1.jpg" alt=""><h3>그레이시 그린 라운드 선글라스</h3><s>130,000</s><p><em>20%</em> 30,000 원</p></article>
+                        <article class="product swiper-slide"><img src="images/figma/live2.jpg" alt=""><h3>하이퀄울터치 와이드슬랙스PT</h3><s>130,000</s><p><em>20%</em> 30,000 원</p></article>
+                        <article class="product swiper-slide"><img src="images/figma/live3.jpg" alt=""><h3>빈티지로지 기모맨투맨 10종</h3><s>130,000</s><p><em>20%</em> 30,000 원</p></article>
+                        <article class="product swiper-slide"><img src="images/figma/live4.jpg" alt=""><h3>그레이시 그린 라운드 선글라스</h3><s>130,000</s><p><em>20%</em> 30,000 원</p></article>
+                        <article class="product swiper-slide"><img src="images/figma/live5.jpg" alt=""><h3>세미 A라인 셋업 스타일</h3><s>130,000</s><p><em>20%</em> 30,000 원</p></article>
+                        <article class="product swiper-slide"><img src="images/figma/live6.jpg" alt=""><h3>캐주얼 로맨틱 원피스</h3><s>130,000</s><p><em>20%</em> 30,000 원</p></article>
+                        <article class="product swiper-slide"><img src="images/figma/live1.jpg" alt=""><h3>그레이시 그린 라운드 선글라스</h3><s>130,000</s><p><em>20%</em> 30,000 원</p></article>
+                        <article class="product swiper-slide"><img src="images/figma/live2.jpg" alt=""><h3>하이퀄울터치 와이드슬랙스PT</h3><s>130,000</s><p><em>20%</em> 30,000 원</p></article>
+                        <article class="product swiper-slide"><img src="images/figma/live3.jpg" alt=""><h3>빈티지로지 기모맨투맨 10종</h3><s>130,000</s><p><em>20%</em> 30,000 원</p></article>
+                        <article class="product swiper-slide"><img src="images/figma/live4.jpg" alt=""><h3>그레이시 그린 라운드 선글라스</h3><s>130,000</s><p><em>20%</em> 30,000 원</p></article>
+                    </div>
+                </div>
+                <button class="arrow arrow--right" aria-label="다음"><img src="images/figma/arrow-right.svg" alt=""></button><span class="side-tag">SALE</span>
+                <button class="more">더보기</button>
+            </div>
+        </section>
+
+        <section id="ranking" class="section ranking">
+            <div class="section__inner">
+                <h2 class="section-title">라이브 랭킹</h2>
+                <button class="arrow arrow--left" aria-label="이전"><img src="images/figma/promotion-arrow-left.svg" alt=""></button>
+                <div class="rank-list">
+                    <article class="rank-card"><img src="images/figma/rank1.jpg" alt=""><div><b>1</b><h3>연휴 선물 특집 라이브<br>방송 홈파티 준비 끝</h3><hr><small>라이트데님터치 쿨데미지버킷햇</small><p><em>20%</em> 30,000원</p><span>▷ 10만　♡ 5.2만</span></div></article>
+                    <article class="rank-card"><img src="images/figma/rank2.jpg" alt=""><div><b>3</b><h3>빈티지 특집 드레스 7set<br>파격 할인</h3><hr><small>라이트데님터치 쿨데미지버킷햇</small><p><em>20%</em> 30,000원</p><span>▷ 10만　♡ 5.2만</span></div></article>
+                    <article class="rank-card"><img src="images/figma/rank3.jpg" alt=""><div><b>4</b><h3>빈티지 특집 드레스 7set<br>파격 할인</h3><hr><small>라이트데님터치 쿨데미지버킷햇</small><p><em>20%</em> 30,000원</p><span>▷ 10만　♡ 5.2만</span></div></article>
+                    <article class="rank-card"><img src="images/figma/rank4.jpg" alt=""><div><b>6</b><h3>로맨틱 분위기 원피스<br>3종 특가</h3><hr><small>라이트데님터치 쿨데미지버킷햇</small><p><em>20%</em> 30,000원</p><span>▷ 10만　♡ 5.2만</span></div></article>
+                    <article class="rank-card"><img src="images/figma/rank5.jpg" alt=""><div><b>2</b><h3>한 아이템으로 일주일<br>코디 신발러들 최애템</h3><hr><small>라이트데님터치 쿨데미지버킷햇</small><p><em>20%</em> 30,000원</p><span>▷ 10만　♡ 5.2만</span></div></article>
+                    <article class="rank-card"><img src="images/figma/rank6.jpg" alt=""><div><b>4</b><h3>기분내는데 빠질수 없는<br>아이템 모여</h3><hr><small>라이트데님터치 쿨데미지버킷햇</small><p><em>20%</em> 30,000원</p><span>▷ 10만　♡ 5.2만</span></div></article>
+                    <article class="rank-card"><img src="images/figma/rank7.jpg" alt=""><div><b>5</b><h3>연휴 선물 특집 라이브<br>방송 홈파티 준비 끝</h3><hr><small>라이트데님터치 쿨데미지버킷햇</small><p><em>20%</em> 30,000원</p><span>▷ 10만　♡ 5.2만</span></div></article>
+                    <article class="rank-card"><img src="images/figma/rank8.jpg" alt=""><div><b>7</b><h3>로맨틱 여행 무드 가득<br>머리부터 발끝까지</h3><hr><small>라이트데님터치 쿨데미지버킷햇</small><p><em>20%</em> 30,000원</p><span>▷ 10만　♡ 5.2만</span></div></article>
+                </div>
+                <button class="arrow arrow--right" aria-label="다음"><img src="images/figma/arrow-right.svg" alt=""></button><span class="side-tag">SALE</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <img class="footer__logo" src="images/figma/footer-logo.svg" alt="LIVE EVIL">
+            <dl><div><dt>TEL</dt><dd>(+82) 70-4122-6636</dd></div><div><dt>E-MAIL</dt><dd>slee@project-pef.com</dd></div><div><dt>ADRESS</dt><dd>501-3, Gajeongbuk-ro 96, Yuseong-gu, Daejeon, 34111, South Korea</dd></div></dl>
+            <nav><a href="#">Philosophy</a><a href="#">Serum</a><a href="#">Science</a><a href="#">Contact</a></nav>
+            <div class="footer__bottom"><span>Copyright © 2026 pef Inc. All Rights Reserved</span><a href="#">Privacy Policy</a><a href="#">Cookie Policy</a></div>
+        </div>
+        <a class="top" href="#wrap"><img src="images/figma/footer-up.svg" alt=""><span>Top</span></a>
+    </footer>
+</div>
+</body>
+</html>
